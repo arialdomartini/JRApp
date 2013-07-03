@@ -163,7 +163,13 @@ namespace JR.SL.Service.Impl
 			if (page == 1) {
 				Items = new List<Advert> ();
 			}
+			if (whatFor == "") {
+				whatFor ="_empty";
+			}
 			
+			if (whereFor == "") {
+				whereFor ="_empty";
+			}
 			var jsonConvert = Mvx.Resolve<IMvxJsonConverter>();
 			//page++;
 
