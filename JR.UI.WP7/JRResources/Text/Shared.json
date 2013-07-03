@@ -1,0 +1,14 @@
+﻿{
+"AppTitle":"Jobrapido",
+"SmallDetailsFormat":"{0}{1} {2} del {3:dd-MM-yyyy}",
+"TimeAgo.JustNow":"just now",
+"TimeAgo.SecondsAgo":"{0}s ago",
+"TimeAgo.MinutesAgo":"{0}m ago",
+"TimeAgo.HoursAgo":"{0}h ago",
+"TimeAgo.DaysAgo":"{0}d ago",
+"TimeAgo.Never":"never",
+"ReleaseToRefresh":"Release",
+"Error.NoNetwork":"Sorry - no network for tweets right now",
+"HoldToRefresh":"Hold to refresh",
+"Share":"Share"
+}

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9CC3E5B-10E8-4AB6-B63F-87854BBCFF3F}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>JR.Droid</RootNamespace>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AssemblyName>JR.Droid</AssemblyName>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Cirrious.MvvmCross.Binding">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Binding.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.File">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.File.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.JsonLocalisation">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.JsonLocalisation.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.ResourceLoader">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.ResourceLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Email">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.Email.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.PhoneCall">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.PhoneCall.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Share">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.Share.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Visibility">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.Visibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.File.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.File.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Email.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.Email.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.ResourceLoader.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.ResourceLoader.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Share.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.Share.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Visibility.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.Visibility.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.WebBrowser.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.PhoneCall.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.PhoneCall.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Binding.Droid">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Binding.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore">
+      <HintPath>..\MvvmCross-Binaries\XS-iOS-Mac\bin\Release\Mvx\Portable\Cirrious.CrossCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="SplashScreenActivity.cs" />
+    <Compile Include="ViewHelpers.cs" />
+    <Compile Include="View\BaseTabbedView.cs" />
+    <Compile Include="View\BaseView.cs" />
+    <Compile Include="View\BaseViewExtensionMethods.cs" />
+    <Compile Include="View\HomeView.cs" />
+    <Compile Include="View\IBaseView.cs" />
+    <Compile Include="View\Home\AdvertsView.cs" />
+    <Compile Include="View\AdvertsLists\FavoritesView.cs" />
+    <Compile Include="View\AdvertsLists\BaseAdvertListView.cs" />
+    <Compile Include="View\AdvertsLists\AdvertListView.cs" />
+    <Compile Include="Bindings\FavoritesButtonBinding.cs" />
+    <Compile Include="View\AdvertView.cs" />
+    <Compile Include="JRPresenter.cs" />
+    <Compile Include="TabGroupActivity.cs" />
+    <Compile Include="LinkerPleaseInclude.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="..\JRResources\.DS_Store">
+      <Link>JRResources\.DS_Store</Link>
+    </None>
+    <None Include="..\JRResources\JobrapidoLogo.png">
+      <Link>JRResources\JobrapidoLogo.png</Link>
+    </None>
+    <None Include="..\JRResources\background.pdn">
+      <Link>JRResources\background.pdn</Link>
+    </None>
+    <None Include="..\JRResources\background.png">
+      <Link>JRResources\background.png</Link>
+    </None>
+    <None Include="..\JRResources\fav.off.png">
+      <Link>JRResources\fav.off.png</Link>
+    </None>
+    <None Include="..\JRResources\fav.on.png">
+      <Link>JRResources\fav.on.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.base.png">
+      <Link>JRResources\Images\appbar.base.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.bus.png">
+      <Link>JRResources\Images\appbar.bus.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.calendar.png">
+      <Link>JRResources\Images\appbar.calendar.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.camera.png">
+      <Link>JRResources\Images\appbar.camera.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.city.png">
+      <Link>JRResources\Images\appbar.city.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.database.png">
+      <Link>JRResources\Images\appbar.database.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.feature.email.rest.png">
+      <Link>JRResources\Images\appbar.feature.email.rest.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.link.png">
+      <Link>JRResources\Images\appbar.link.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.people.png">
+      <Link>JRResources\Images\appbar.people.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.phone.png">
+      <Link>JRResources\Images\appbar.phone.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.questionmark.rest.png">
+      <Link>JRResources\Images\appbar.questionmark.rest.png</Link>
+    </None>
+    <None Include="..\JRResources\Images\appbar.twitter.bird.png">
+      <Link>JRResources\Images\appbar.twitter.bird.png</Link>
+    </None>
+    <None Include="..\JRResources\Text\.DS_Store">
+      <Link>JRResources\Text\.DS_Store</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\layout\SplashScreen.axml" />
+    <AndroidResource Include="Resources\layout\Page_Home.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\Tab_Adverts.xml" />
+    <AndroidResource Include="Resources\Drawable\Tab_Favorites.xml" />
+    <AndroidResource Include="Resources\Drawable\appbar_database.png" />
+    <AndroidResource Include="Resources\Drawable\appbar_favs.png" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\values\MvxBindingAttributes.xml" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\layout\ChildPage_Adverts.axml" />
+    <AndroidResource Include="Resources\Drawable\appbar_calendar.png" />
+    <AndroidResource Include="Resources\Drawable\appbar_people.png" />
+    <AndroidResource Include="Resources\layout\Page_AdvertList.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ListItem_Advert.xml" />
+    <AndroidResource Include="Resources\Drawable\appbar_city.png" />
+    <AndroidResource Include="Resources\layout\ListItem_SeparatorToString.xml" />
+    <AndroidResource Include="Resources\Drawable\star_gold_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\star_gold45.png" />
+    <AndroidResource Include="Resources\Drawable\star_grey_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\star_grey45.png" />
+    <AndroidResource Include="Resources\Drawable\background.png" />
+    <AndroidResource Include="Resources\Drawable\JobrapidoLogo.png" />
+    <AndroidResource Include="Resources\Drawable\adverts.png" />
+    <AndroidResource Include="Resources\layout\Page_Advert.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\JR.Core\JR.Core.csproj">
+      <Project>{1C9864AA-BB08-4AFB-BFF2-9EA705A69ED0}</Project>
+      <Name>JR.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\" />
+    <Folder Include="JRResources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="..\JRResources\Text\AdvertViewModel.json">
+      <Link>JRResources\Text\AdvertViewModel.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AndroidAsset>
+    <AndroidAsset Include="..\JRResources\Text\AdvertsViewModel.json">
+      <Link>JRResources\Text\AdvertsViewModel.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AndroidAsset>
+    <AndroidAsset Include="..\JRResources\Text\HomeViewModel.json">
+      <Link>JRResources\Text\HomeViewModel.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AndroidAsset>
+    <AndroidAsset Include="..\JRResources\Text\Shared.json">
+      <Link>JRResources\Text\Shared.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AndroidAsset>
+    <AndroidAsset Include="..\JRResources\Text\SplashScreenViewModel.json">
+      <Link>JRResources\Text\SplashScreenViewModel.json</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AndroidAsset>
+  </ItemGroup>
+</Project>

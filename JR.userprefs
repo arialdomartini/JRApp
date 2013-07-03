@@ -1,0 +1,119 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JR.SL.Services/Impl/JRService.cs">
+    <Files>
+      <File FileName="JR.DL.Model/Entities/FavoriteAdvert2.cs" Line="2" Column="1" />
+      <File FileName="JR.DL.Model/Entities/FavoriteAdvert.cs" Line="1" Column="1" />
+      <File FileName="JR.DAL.Repository/Impl/RepositoryFactory.cs" Line="45" Column="25" />
+      <File FileName="JR.DAL.Persistence/SQLiteSessionManager.cs" Line="14" Column="20" />
+      <File FileName="JR.DAL.Persistence/SQLiteConnectionFactory/SQLiteConnectionFactory.cs" Line="15" Column="23" />
+      <File FileName="JR.DAL.Repository/Interfaces/IRepositoryFactory.cs" Line="1" Column="1" />
+      <File FileName="JR.SL.Services/Trace.cs" Line="1" Column="1" />
+      <File FileName="JR.SL.Services/Impl/JRService.cs" Line="238" Column="62" />
+      <File FileName="JR.SL.Services/Impl/FavoritesSaver.cs" Line="58" Column="6" />
+      <File FileName="JR.DL.Model/Entities/Advert.cs" Line="3" Column="1" />
+      <File FileName="JR.DAL.Persistence/SharedFile/SQLiteNet.cs" Line="1117" Column="1" />
+      <File FileName="JR.DAL.Persistence/BaseClasses.cs" Line="131" Column="8" />
+      <File FileName="JR.DAL.Persistence/AbstractDao.cs" Line="21" Column="1" />
+      <File FileName="JR.DAL.Persistence/IDao.cs" Line="1" Column="1" />
+      <File FileName="JR.SL.Services/Messages/FavoritesChangedMessage.cs" Line="1" Column="1" />
+      <File FileName="JR.UI.Touch/Main.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="1 - Model" expanded="True">
+            <Node name="1.1 - DL" expanded="True">
+              <Node name="JR.DL.Model" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="1.2 - DAL" expanded="True">
+              <Node name="JR.DAL.Persistence" expanded="True">
+                <Node name="SharedFile" expanded="True" />
+                <Node name="SQLiteConnectionFactory" expanded="True" />
+              </Node>
+              <Node name="JR.DAL.Repository" expanded="True">
+                <Node name="References" expanded="True" />
+                <Node name="Impl" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+          <Node name="2 - ViewModel" expanded="True">
+            <Node name="2.1 - SL" expanded="True">
+              <Node name="JR.SL.Service" expanded="True">
+                <Node name="Impl" expanded="True">
+                  <Node name="JRService.cs" selected="True" />
+                </Node>
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Messages" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="2.2 - Presentation" expanded="True">
+              <Node name="JR.Core" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+          <Node name="3 - View" expanded="True">
+            <Node name="Android" expanded="True">
+              <Node name="JR.UI.Droid" expanded="True">
+                <Node name="View" expanded="True">
+                  <Node name="AdvertsLists" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="iOS" expanded="True">
+              <Node name="JR.UI.Touch" expanded="True" />
+            </Node>
+            <Node name="WindowsPhone" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>error</Value>
+          <Value>ex</Value>
+          <Value>"__utma=258773842.1530730123.1355866582.1368034558.1368208735.10; __utmb=258773842.1.10.1368208735; __utmc=258773842; __utmz=258773842.1358888724.6.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmv=258773842.|5=%3B=_=1; JE=" + @"" + "02*zA/Ew5P7Fc5XpyvAhxWjW4kH7psoVqLLP6zW+R7/wkSogYuAOgz3teKcQFoaFEbouh1ZWPc0Lt3sY6Acb9DZIR1ceBJNYmhjGp4BGi5VQSSrX+WDd5noUk2eBAXWduFblIehGuwsiSBEE0nNQoXlTXft4X06jiXIoEv9+xW8h2fOgMm0CVJ9cBWnzPRY2hNy3HiY7kz1mUEsyzd4fErqyJpm7dJOLU+jARu90qSkHdMCPOP+h/j5cPcMtV1zjuMGMP4lHgHOSvIpnuwozpUHEF7gnZCyxats6hNJv9jLmInw/Qkdmq0z4mm1HPw4g4+iznVIq5gz5g96RrFFOwTCQ9rPnAmYGOWoYm5fGZrD3jmoe99FQYq14E3tUQXp/YoFgYqQGyqsMTyVbvT9id8kOwB+bQErWsZ33kDBMbYmP+W+iTTWbtK2dtavZfZwFxvukFtl6iHoAW/2+24TY+ZI7eUj6Vvc5fgRmOCiGmIe0tkUPENd6fq44BLN3QFBp77DlSDDW02yYdgzNXwVafKmG3Ne8Oyw9Owq5do8Kl73BEUj96O4BYY7kg7qtUjPQKKi"</Value>
+          <Value>indexPath.Row % 2</Value>
+          <Value>request.Headers.Keys.m_collection</Value>
+          <Value>request.Headers.Keys.System.Collections.ICollection.SyncRoot</Value>
+          <Value>request.Headers["1"]</Value>
+        </State>
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.Core/Converters/SimpleDateValueConverter.cs" line="17" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.UI.Touch/Cells/SessionCell.cs" line="46" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.UI.Droid/Resources/Resource.Designer.cs" line="14" column="14" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.Core/Models/JRService.cs" line="282" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.UI.Touch/Views/SessionLists/BaseSessionListView.cs" line="106" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.UI.Touch/Views/SessionLists/BaseSessionListView.cs" line="126" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.UI.Touch/Views/SessionLists/BaseSessionListView.cs" line="192" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.UI.Touch/Views/SessionLists/BaseSessionListView.cs" line="214" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.Core/Models/JRService.cs" line="226" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/Cirrious.Conference.Core/Models/JRService.cs" line="189" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/JR.UI.Touch/Views/AdvertLists/BaseAdvertListView.cs" line="203" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/JR.UI.Touch/Views/AdvertLists/BaseAdvertListView.cs" line="202" column="63" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/JR.UI.Droid/Views/BaseView.cs" line="21" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/JR.UI.Droid/Setup.cs" line="27" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/JR.UI.Droid/Setup.cs" line="34" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Downloads/MvvmCross-Tutorials-master-1/Sample - CirriousConference/JR.UI.Droid/Views/HomeView.cs" line="20" column="34" />
+      <Breakpoint file="/Users/luigisaggese/Documents/Tutti progetti/LS/Jobrapido/JR.Core/Services/JRService.cs" line="207" column="1" />
+      <Breakpoint file="/Users/luigisaggese/Documents/Tutti progetti/LS/Jobrapido/JR.DAL.Persistence/AbstractDao.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../NPlus1DaysOfMvvmCross-master/N-06-Books/Book.Core/Services/SimpleRestService.cs" line="86" offsetX="672" offsetY="1360" expression="T" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.3_220-_220View.Android.JR.UI.Droid AndroidDeviceId-Debug="4df1f88f0aeb4f31" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Release="4df1f88f0aeb4f31" />
+</Properties>
